@@ -4,8 +4,11 @@ class NotFound extends Component {
 
     render() {
         return (
-            <div>
-                Not Found
+            <div className="notFound-inner">
+                Page Not Found
+                <ul>
+                    <li><Link to="/">Go to Home</Link></li>
+                </ul>
             </div>
         );
     }
