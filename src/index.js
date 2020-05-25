@@ -5,7 +5,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
 
-console.log("process.env.PUBLIC_URL========================== ", process.env.PUBLIC_URL);
 ReactDOM.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <App />
