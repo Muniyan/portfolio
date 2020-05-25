@@ -7,8 +7,10 @@ class NotFound extends Component {
         return (
             <div className="notFound-inner">
                 Page Not Found
-                <ul>
-                    <li><Link to="/">Go to Home</Link></li>
+                <ul className="notFound-inner-ul">
+                    <li className="notFound-inner-li">
+                        <Link to="/">Go to Home</Link>
+                    </li>
                 </ul>
             </div>
         );

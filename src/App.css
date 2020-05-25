@@ -284,6 +284,16 @@
   background-color: #fff;
 }
 
+.notFound-inner-ul {
+  margin: 0px;
+  font-size: 16px;
+  padding: 10px 0px;
+}
+
+.notFound-inner-li {
+  list-style: none;
+}
+
 
 
 
