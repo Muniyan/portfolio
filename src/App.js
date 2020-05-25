@@ -7,16 +7,14 @@ import Contact from './component/contact';
 import Sidebar from './component/sidebar';
 import Resume from './component/resume';
 import Blog from './component/blog';
+import NotFound from './component/notFound';
 
 class App extends Component {
 
   renderRedirect = () => {
-    console.log("App========================== ", window.location);
     let search = window.location.search;
-    console.log("App search========================== ", search);
     if(search.indexOf("?p=") != -1) {
       let url = window.location.pathname + window.location.search.slice(3);
-      console.log("App url========================== ", url);
       return <Redirect to={url} />
     }
   }
@@ -36,6 +34,7 @@ class App extends Component {
             <Route path="/resume" component={Resume} />
             <Route path="/blog" component={Blog} />
             <Route path="/contact" component={Contact} />
+            <Route path="*" component={NotFound} />
           </Switch>
         </div>
       </div>
