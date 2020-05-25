@@ -20,7 +20,7 @@ class Sidebar extends Component {
 
                 <nav className="sidebar-navigation">
                     <ul>
-                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/">About</Link></li>
                         <li><Link to="/portfolio">Portfolio</Link></li>
                         <li><Link to="/resume">Resume</Link></li>
                         <li><Link to="/blog">Blog</Link></li>
