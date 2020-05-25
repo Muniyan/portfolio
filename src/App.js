@@ -13,6 +13,7 @@ class App extends Component {
   renderRedirect = () => {
     console.log("App========================== ", window.location);
     let search = window.location.search;
+    console.log("App search========================== ", search);
     if(search.indexOf("?p=") != 0) {
       let url = window.location.pathname + window.location.search.slice(3);
       console.log("App url========================== ", url);
