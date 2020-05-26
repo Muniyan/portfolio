@@ -21,7 +21,7 @@
             "technologies": [
                 {
                     "title": "Ruby on Rails",
-                    "url": "http://rubyonrails.org/"
+                    "url": "https://rubyonrails.org/"
                 },
                 {
                     "title": "React",
@@ -40,8 +40,36 @@
             ],
             "technologies": [
                 {
+                    "title": "Ruby on Rails",
+                    "url": "https://rubyonrails.org/"
+                },
+                {
                     "title": "Angular",
                     "url": "https://angular.io/"
+                },
+                {
+                    "title": "Ionic Framework",
+                    "url": "https://ionicframework.com/"
+                },
+                {
+                    "title": "Apache Cordova",
+                    "url": "https://cordova.apache.org/"
+                },
+                {
+                    "title": "Redis",
+                    "url": "http://redis.io/"
+                },
+                {
+                    "title": "ElasticSearch",
+                    "url": "http://elasticsearch.org/"
+                },
+                {
+                    "title": "Chef",
+                    "url": "https://www.getchef.com/"
+                },
+                {
+                    "title": "React",
+                    "url": "https://www.ansible.com/"
                 }
             ],
             "timeline": "2014 - 2016"

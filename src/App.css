@@ -294,6 +294,42 @@
   list-style: none;
 }
 
+.portfolio-technologies-header {
+  margin-top: 30px;
+}
+
+.portfolio-technologies-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #666;
+  padding-bottom: .5em;
+}
+
+.portfolio-technologies-content {
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-technologies-items {
+  display: inline-block;
+}
+
+.portfolio-technologies-items a {
+  color: #FFF;
+  font-size: 13px;
+  padding: 4px 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #008CBA;
+  /* background-color: #555555; */
+}
+.portfolio-technologies-items a:hover {
+  text-decoration: underline;
+}
+
 
 
 

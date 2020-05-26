@@ -51,6 +51,21 @@ class Portfolio extends Component {
                                                     })}
                                                 </ol> : "" 
                                             }
+
+                                            { d.technologies ?
+                                                <div className="portfolio-technologies-header">
+                                                    <div className="portfolio-technologies-title">technologies</div>
+                                                    <ul className="portfolio-technologies-content">
+                                                        {d.technologies.map(function (l, lidx) {
+                                                            return (
+                                                                <li className="portfolio-technologies-items">
+                                                                    <a href={l.url} target="_blank">{l.title}</a>
+                                                                </li>
+                                                            )
+                                                        })}
+                                                    </ul>
+                                                </div> : "" 
+                                            }
                                         </li>
                                     </ul>
                                 )
