@@ -59,7 +59,7 @@ class Portfolio extends Component {
                                                         {d.technologies.map(function (l, lidx) {
                                                             return (
                                                                 <li className="portfolio-technologies-items">
-                                                                    <a href={l.url} target="_blank">{l.title}</a>
+                                                                    <a href={l.url} rel="noopener noreferrer" target="_blank">{l.title}</a>
                                                                 </li>
                                                             )
                                                         })}
