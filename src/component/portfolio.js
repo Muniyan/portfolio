@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import portfolioData from '../data/portfolio.json'
+import portfolioData from '../data/portfolio.json';
 
 class Portfolio extends Component {
     render() {
