@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo  from '../images/hemant.jpg';
+import contactData from '../data/contact.json';
 import { SocialIcon } from 'react-social-icons';
 
 class Sidebar extends Component {
@@ -20,11 +21,11 @@ class Sidebar extends Component {
 
                 <nav className="sidebar-navigation">
                     <ul>
-                        <li><Link to="/">About</Link></li>
-                        <li><Link to="/portfolio">Portfolio</Link></li>
-                        <li><Link to="/resume">Resume</Link></li>
-                        <li><Link to="/blog">Blog</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li><NavLink to="/" exact activeClassName="selectedNavLink">About</NavLink></li>
+                        <li><NavLink to="/portfolio" activeClassName="selectedNavLink">Portfolio</NavLink></li>
+                        <li><NavLink to="/education" activeClassName="selectedNavLink">Education</NavLink></li>
+                        <li><NavLink to="/experience" activeClassName="selectedNavLink">Experience</NavLink></li>
+                        <li><NavLink to="/contact" activeClassName="selectedNavLink">Contact</NavLink></li>
                     </ul>
                 </nav>
 
@@ -33,18 +34,18 @@ class Sidebar extends Component {
                         Get in touch
                     </div>
                     <div className="sidebar-content">
-                        <a href="#" className="sidebar-button">
-                            <SocialIcon className="sidebar-icon" network="email" fgColor="#ff5a01" style={{ height: 30, width: 30 }} />
-                        </a>
-                        <a href="#" className="sidebar-button">
-                            <SocialIcon className="sidebar-icon" network="facebook" fgColor="#ff5a01" style={{ height: 30, width: 30 }} />
-                        </a>
-                        <a href="#" className="sidebar-button">
-                            <SocialIcon className="sidebar-icon" network="linkedin" fgColor="#ff5a01" style={{ height: 30, width: 30 }} />
-                        </a>
-                        <a href="#" className="sidebar-button">
-                            <SocialIcon className="sidebar-icon" network="twitter" fgColor="#ff5a01" style={{ height: 30, width: 30 }} />
-                        </a>
+                        {contactData.profile.map(function (p) {
+                            return (
+                                p.network == "email" ?
+                                    <a href={p.url} className="sidebar-button">
+                                        <SocialIcon className="sidebar-icon" network={p.network} fgColor="#ff5a01" style={{ height: 30, width: 30 }} />
+                                    </a>
+                                    :
+                                    <a href={p.url} className="sidebar-button" rel="noopener noreferrer" target="_blank">
+                                        <SocialIcon className="sidebar-icon" network={p.network} fgColor="#ff5a01" style={{ height: 30, width: 30 }} />
+                                    </a>
+                            )
+                        })}
                     </div>
                 </div>
             </div>

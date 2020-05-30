@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-class Resume extends Component {
+class Education extends Component {
 
     render() {
         return (
             <div>
-                Resume
+                Education
             </div>
         );
     }
 }
 
-export default Resume;
+export default Education;

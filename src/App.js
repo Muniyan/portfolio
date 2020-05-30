@@ -5,9 +5,9 @@ import Portfolio from './component/portfolio';
 import About from './component/about';
 import Contact from './component/contact';
 import Sidebar from './component/sidebar';
-import Resume from './component/resume';
-import Blog from './component/blog';
 import NotFound from './component/notFound';
+import Education from './component/education';
+import Experience from './component/experience';
 
 class App extends Component {
 
@@ -31,8 +31,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={About} />
             <Route path="/portfolio" exact component={Portfolio} />
-            <Route path="/resume" component={Resume} />
-            <Route path="/blog" component={Blog} />
+            <Route path="/education" component={Education} />
+            <Route path="/experience" component={Experience} />
             <Route path="/contact" component={Contact} />
             <Route path="*" component={NotFound} />
           </Switch>

@@ -26,23 +26,19 @@
         "skills": [
             {
                 "key": "C/C++",
-                "value": "90%",
-                "color": "about-progress-green"
+                "value": "90%"
             },
             {
                 "key": "Js/Css/Html",
-                "value": "70%",
-                "color": "about-progress-blue"
+                "value": "70%"
             },
             {
                 "key": "Java",
-                "value": "50%",
-                "color": "about-progress-red"
+                "value": "50%"
             },
             {
                 "key": "Python",
-                "value": "30%",
-                "color": "about-progress-grey"
+                "value": "30%"
             }
         ]
     }
