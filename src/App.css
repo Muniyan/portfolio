@@ -537,13 +537,16 @@
 
 .education-cell {
   display: table-cell;
+  padding-bottom: 2px;
 }
 
 .education-degree,
 .education-location {
-  padding: 0;
+  top: -2px;
   margin: 5px 0;
   color: #757575;
+  position: relative;
+  padding-left: 10px;
   letter-spacing: .5px;
 }
 

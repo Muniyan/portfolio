@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FaBookOpen, FaUniversity } from "react-icons/fa";
 import educationData from '../data/education.json';
 
 class Education extends Component {
@@ -25,12 +26,13 @@ class Education extends Component {
                                         
                                         <div className="education-row">
                                             <div className="education-cell">
-                                                <i className="fas fa-book-open"></i>
+                                                <FaBookOpen />
                                                 <span className="education-degree">{p.degree}</span>
                                             </div>
                                         </div>
                                         <div className="education-row">
                                             <div className="education-cell">
+                                                <FaUniversity />
                                                 <span className="education-location">{p.location}</span>
                                             </div>
                                         </div>
