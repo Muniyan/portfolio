@@ -508,7 +508,69 @@
   list-style: none;
 }
 
+.education-section {
+  width: 100%;
+  padding: 50px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
 
+.education-parent {
+  width: 33%;
+  float: left;
+  min-height: 1px;
+  padding-right: 15px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.education-table {
+  padding: 15px;
+  display: table;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15), 0 2px 10px 0 rgba(0,0,0,0.11);
+}
+
+.education-row {
+  display: table-row;
+}
+
+.education-cell {
+  display: table-cell;
+}
+
+.education-degree,
+.education-location {
+  padding: 0;
+  margin: 5px 0;
+  color: #757575;
+  letter-spacing: .5px;
+}
+
+.education-content {
+  display: block;
+  font-size: 18px;
+  margin-top: 12px;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
+
+.education-year {
+  text-align: center;
+}
+
+.education-year h3{
+  top: -32px;
+  color: #fff;
+  font-size: 16px;
+  margin: 0px 60px;
+  padding: 7px 10px;
+  text-align: center;
+  position: relative;
+  letter-spacing: 0.5px;
+  background-color: #008cba;
+  box-shadow: 0 0 6px rgba(0,0,0,.3);
+}
 
 
 

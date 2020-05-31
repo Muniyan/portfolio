@@ -11,7 +11,7 @@ class Sidebar extends Component {
             <div className="sidebar-parent">
                 <a href="/" className="sidebar-user-url">
                     <div className="sidebar-user-photo">
-                        <img src={logo} />
+                        <img alt="Hemant" src={logo} />
                     </div>
                     <div className="sidebar-user-content">
                         <h1 className="sidebar-user-name">Hemant Kumar Singh</h1>
@@ -36,7 +36,7 @@ class Sidebar extends Component {
                     <div className="sidebar-content">
                         {contactData.profile.map(function (p) {
                             return (
-                                p.network == "email" ?
+                                p.network === "email" ?
                                     <a href={p.url} className="sidebar-button">
                                         <SocialIcon className="sidebar-icon" network={p.network} fgColor="#ff5a01" style={{ height: 30, width: 30 }} />
                                     </a>

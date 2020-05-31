@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import portfolioData from '../data/portfolio.json';
 
 class Portfolio extends Component {
+
+    componentDidMount = () => {
+        window.document.title = portfolioData.title;
+    }
+
     render() {
         function createMarkup(description) {
             return {__html: description};

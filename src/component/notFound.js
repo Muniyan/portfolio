@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 
 class NotFound extends Component {
 
+    componentDidMount = () => {
+        window.document.title = "404";
+    }
+
     render() {
         return (
             <div className="notFound-inner">

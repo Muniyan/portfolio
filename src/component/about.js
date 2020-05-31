@@ -5,6 +5,10 @@ import resumePdf from '../pdf/hemant_Resume.pdf';
 
 class About extends Component {
 
+    componentDidMount = () => {
+        window.document.title = aboutData.title;
+    }
+
     render() {
         return (
             <div className="about-inner">
