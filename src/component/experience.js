@@ -9,8 +9,10 @@ class Experience extends Component {
 
     render() {
         return (
-            <div>
-                Experience
+            <div className="portfolio-inner">
+                <div className="portfolio-parent">
+                    <div className="portfolio-title">{experienceData.title}</div>
+                </div>
             </div>
         );
     }
