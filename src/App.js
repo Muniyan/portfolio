@@ -18,6 +18,7 @@ class App extends Component {
       return <Redirect to={url} />
     }
   }
+  
 
   render() {
     return (
