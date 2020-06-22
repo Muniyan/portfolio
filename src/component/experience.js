@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import portfolioData from '../data/portfolio.json';
+import experienceData from '../data/experience.json';
 
-class Portfolio extends Component {
+class Experience extends Component {
 
     componentDidMount = () => {
-        window.document.title = portfolioData.title;
+        window.document.title = experienceData.title;
     }
 
     render() {
@@ -15,11 +15,11 @@ class Portfolio extends Component {
         return (
             <div className="portfolio-inner">
                 <div className="portfolio-parent">
-                    <div className="portfolio-title">{portfolioData.title}</div>
-                    <p>{portfolioData.description}</p>
+                    <div className="portfolio-title">{experienceData.title}</div>
+                    <p>{experienceData.description}</p>
                     <div className="portfolio-timeline-section">
                         {
-                            portfolioData.items.map(function (d, idx) {
+                            experienceData.items.map(function (d, idx) {
                                 return (
                                     <ul className="portfolio-timeline">
                                         <li className="portfolio-work">
@@ -95,4 +95,4 @@ class Portfolio extends Component {
         //     })
         // }
 
-export default Portfolio;
+export default Experience;

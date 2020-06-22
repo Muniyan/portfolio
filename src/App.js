@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Route, Switch, Redirect } from 'react-router-dom';
-import Portfolio from './component/portfolio';
 import About from './component/about';
 import Contact from './component/contact';
 import Sidebar from './component/sidebar';
 import NotFound from './component/notFound';
 import Projects from './component/projects';
+import Experience from './component/experience';
+import Education from './component/education';
 
 class App extends Component {
 
@@ -28,11 +29,12 @@ class App extends Component {
 
         <div className="r-p1">
           <Switch>
-            <Route exact path="/" component={About} />
-            <Route path="/portfolio" exact component={Portfolio} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/contact" component={Contact} />
-            <Route path="*" component={NotFound} />
+            <Route exact path="/portfolio" component={About} />
+            <Route path="/portfolio/experience" exact component={Experience} />
+            <Route path="/portfolio/education" exact component={Education} />
+            <Route path="/portfolio/projects" component={Projects} />
+            <Route path="/portfolio/contact" component={Contact} />
+            <Route path="/portfolio/*" component={NotFound} />
           </Switch>
         </div>
       </div>

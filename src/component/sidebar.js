@@ -22,10 +22,11 @@ class Sidebar extends Component {
 
                 <nav className="sidebar-navigation">
                     <ul>
-                        <li><NavLink to="/" exact activeClassName="selectedNavLink">About</NavLink></li>
-                        <li><NavLink to="/portfolio" activeClassName="selectedNavLink">Portfolio</NavLink></li>
-                        <li><NavLink to="/projects" activeClassName="selectedNavLink">Projets</NavLink></li>
-                        <li><NavLink to="/contact" activeClassName="selectedNavLink">Contact</NavLink></li>
+                        <li><NavLink to="/portfolio" exact activeClassName="selectedNavLink">About</NavLink></li>
+                        <li><NavLink to="/portfolio/experience" activeClassName="selectedNavLink">Experience</NavLink></li>
+                        <li><NavLink to="/portfolio/education" activeClassName="selectedNavLink">Education</NavLink></li>
+                        <li><NavLink to="/portfolio/projects" activeClassName="selectedNavLink">Projets</NavLink></li>
+                        <li><NavLink to="/portfolio/contact" activeClassName="selectedNavLink">Contact</NavLink></li>
                     </ul>
                 </nav>
 
