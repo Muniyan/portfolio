@@ -10,7 +10,7 @@ class Sidebar extends Component {
     render() {
         return (
             <div className="sidebar-parent">
-                <a href="/portfolio" className="sidebar-user-url">
+                <a href="/portfolio/" className="sidebar-user-url">
                     <div className="sidebar-user-photo">
                         <img alt="Hemant" src={logo} />
                     </div>
@@ -22,7 +22,7 @@ class Sidebar extends Component {
 
                 <nav className="sidebar-navigation">
                     <ul>
-                        <li><NavLink to="/portfolio" exact activeClassName="selectedNavLink">About</NavLink></li>
+                        <li><NavLink to="/portfolio/" exact activeClassName="selectedNavLink">About</NavLink></li>
                         <li><NavLink to="/portfolio/experience" activeClassName="selectedNavLink">Experience</NavLink></li>
                         <li><NavLink to="/portfolio/education" activeClassName="selectedNavLink">Education</NavLink></li>
                         <li><NavLink to="/portfolio/projects" activeClassName="selectedNavLink">Projets</NavLink></li>
