@@ -32,7 +32,7 @@ class App extends Component {
             <Route path="/portfolio" exact component={Portfolio} />
             <Route path="/projects" component={Projects} />
             <Route path="/contact" component={Contact} />
-            <Route path="/todo-app/*" component={NotFound} />
+            <Route path="*" component={NotFound} />
           </Switch>
         </div>
       </div>
