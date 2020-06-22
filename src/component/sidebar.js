@@ -10,7 +10,7 @@ class Sidebar extends Component {
     render() {
         return (
             <div className="sidebar-parent">
-                <a href="/" className="sidebar-user-url">
+                <a href="/portfolio" className="sidebar-user-url">
                     <div className="sidebar-user-photo">
                         <img alt="Hemant" src={logo} />
                     </div>
