@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import logo  from '../images/hemant.jpg';
+import logo  from '../images/muniyan.jpg';
 import contactData from '../data/contact.json';
 import { SocialIcon } from 'react-social-icons';
 import RecentBlog from './recentBlog';
@@ -15,8 +15,8 @@ class Sidebar extends Component {
                         <img alt="Hemant" src={logo} />
                     </div>
                     <div className="sidebar-user-content">
-                        <h1 className="sidebar-user-name">Hemant Kumar Singh</h1>
-                        <h2 className="sidebar-user-title">Full-stack Software Engineer</h2>
+                        <h1 className="sidebar-user-name">Muniyan P</h1>
+                        <h2 className="sidebar-user-title">Software Engineer</h2>
                     </div>
                 </a>
 
@@ -24,8 +24,7 @@ class Sidebar extends Component {
                     <ul>
                         <li><NavLink to="/" exact activeClassName="selectedNavLink">About</NavLink></li>
                         <li><NavLink to="/portfolio" activeClassName="selectedNavLink">Portfolio</NavLink></li>
-                        <li><NavLink to="/education" activeClassName="selectedNavLink">Education</NavLink></li>
-                        <li><NavLink to="/experience" activeClassName="selectedNavLink">Experience</NavLink></li>
+                        <li><NavLink to="/projects" activeClassName="selectedNavLink">Projets</NavLink></li>
                         <li><NavLink to="/contact" activeClassName="selectedNavLink">Contact</NavLink></li>
                     </ul>
                 </nav>
@@ -49,8 +48,6 @@ class Sidebar extends Component {
                         })}
                     </div>
                 </div>
-
-                <RecentBlog />
             </div>
         );
     }

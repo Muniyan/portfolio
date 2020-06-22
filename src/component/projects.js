@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
-import educationData from '../data/education.json';
+import ProjectsData from '../data/projects.json';
 
-class Education extends Component {
+class Projects extends Component {
 
     componentDidMount = () => {
-        window.document.title = educationData.title;
+        window.document.title = ProjectsData.title;
     }
 
     render() {
         return (
             <div className="portfolio-inner">
                 <div className="portfolio-parent">
-                    <div className="portfolio-title">{educationData.title}</div>
+                    <div className="portfolio-title">{ProjectsData.title}</div>
                 </div>
             </div>
         );
     }
 }
 
-export default Education;
+export default Projects;

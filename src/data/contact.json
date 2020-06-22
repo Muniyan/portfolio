@@ -5,26 +5,14 @@
         {
             "key": "Email:",
             "network": "email",
-            "value": "hemantksingh246@gmail.com",
-            "url": "mailto:hemantksingh246@gmail.com"
+            "value": "muniviji8@gmail.com",
+            "url": "mailto:muniviji8@gmail.com"
         },
         {
             "key": "LinkedIn:",
-            "network": "facebook",
-            "value": "hemantksingh246",
-            "url": "https://www.linkedin.com/in/hemantksingh246"
-        },
-        {
-            "key": "Facebook:",
             "network": "linkedin",
-            "value": "hemantksingh135",
-            "url": "https://facebook.com/hemantksingh135"
-        },
-        {
-            "key": "Twitter:",
-            "network": "twitter",
-            "value": "@hemantksingh135",
-            "url": "https://twitter.com/hemantksingh135"
+            "value": "muniyan-p-760bb898",
+            "url": "https://www.linkedin.com/in/muniyan-p-760bb898"
         }
     ]
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import aboutData from '../data/about.json';
-import resumePdf from '../pdf/hemant_Resume.pdf';
+import resumePdf from '../pdf/muniyan.pdf';
 
 class About extends Component {
 

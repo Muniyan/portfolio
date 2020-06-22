@@ -6,8 +6,7 @@ import About from './component/about';
 import Contact from './component/contact';
 import Sidebar from './component/sidebar';
 import NotFound from './component/notFound';
-import Education from './component/education';
-import Experience from './component/experience';
+import Projects from './component/projects';
 
 class App extends Component {
 
@@ -31,10 +30,9 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={About} />
             <Route path="/portfolio" exact component={Portfolio} />
-            <Route path="/education" component={Education} />
-            <Route path="/experience" component={Experience} />
+            <Route path="/projects" component={Projects} />
             <Route path="/contact" component={Contact} />
-            <Route path="*" component={NotFound} />
+            <Route path="/todo-app/*" component={NotFound} />
           </Switch>
         </div>
       </div>

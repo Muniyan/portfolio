@@ -3,76 +3,93 @@
     "description": "Here are my work experiences and education.",
     "items": [
         {
-            "description": "<strong>Currently open to co-operation on new and existing projects.</strong><p>Looking for a CTO, a mentor, or a just full-stack dev willing to join your team? Contact me. I will answer you in ~24 hours.</p>",
-            "timeline": "Now"
-        },
-        {
-            "description": "<p>During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See my CV for more details.</p>",
-            "timeline": "2017 - 2019"
-        },
-        {
-            "title": "Tripsomnia",
-            "subTitle": "Experience a lifetime adventure. Save up on your holiday",
-            "description": "<strong>Tripsomnia is a web platform that allows to book and sell local tours and tourist attractions all over the world. It serves both as:</strong>",
+            "title": "Spectra Strategic Insights",
+            "subTitle": "Nielsen, Chennai -- Frontend Middle Developer",
+            "description": "<strong>Spectra Strategic Insights</strong> reveals the most important demographics, lifestyles and behaviors in seconds, allowing you to make decisions around your best opportunities.",
             "ulist": [
-                "a SaaS platform for tour operators and activity providers, to manage their offers, customers, orders, and agents cooperation,",
-                "a marketplace for end-customers to book the local tours and activities while or before the travelling."
+                "To display consumer panel data in the interface by using Angular framework.",
+                "To fetch the data from db we are using spring boot.",
+                "Recently started to work on API changes to support Backend also.",
+                "Work with excel to download export the information and access the information in the offline."
             ],
             "technologies": [
-                {
-                    "title": "Ruby on Rails",
-                    "url": "https://rubyonrails.org/"
-                },
-                {
-                    "title": "React",
-                    "url": "https://www.ansible.com/"
-                }
-            ],
-            "timeline": "2016 - 2017"
-        },
-        {
-            "title": "FestBlast",
-            "subTitle": "The best way to enjoy fests",
-            "description": "<strong>FestBlast is an all-in-one platform that lets you easily find the best music fests, organize your trip and personalize your festival experience.</strong><br><br><p>This free web and mobile solution helps you stay connected with your friends & share your epic festival moments.</p>",
-            "olist": [
-                "Responsive web application (Ruby on Rails, Angular)",
-                "Mobile application for Android & iOS (Angular, Ionic, Cordova)"
-            ],
-            "technologies": [
-                {
-                    "title": "Ruby on Rails",
-                    "url": "https://rubyonrails.org/"
-                },
                 {
                     "title": "Angular",
                     "url": "https://angular.io/"
                 },
                 {
-                    "title": "Ionic Framework",
-                    "url": "https://ionicframework.com/"
-                },
-                {
-                    "title": "Apache Cordova",
-                    "url": "https://cordova.apache.org/"
-                },
-                {
-                    "title": "Redis",
-                    "url": "http://redis.io/"
-                },
-                {
-                    "title": "ElasticSearch",
-                    "url": "http://elasticsearch.org/"
-                },
-                {
-                    "title": "Chef",
-                    "url": "https://www.getchef.com/"
-                },
-                {
-                    "title": "React",
-                    "url": "https://www.ansible.com/"
+                    "title": "Spring Boot - API",
+                    "url": "https://spring.io/projects/spring-boot"
                 }
             ],
-            "timeline": "2014 - 2016"
+            "timeline": "2019 - Present"
+        },
+        {
+            "title": "Zia Search",
+            "subTitle": "Zoho Corp, Chennai -- Frontend Developer",
+            "description": "<strong>Search is core of user functionality and every day users will do around 10-20 millions of searches across Zoho.</strong><br><br><p>Our main purpose is to provide single user interface for searching and getting required information whether data is present in Zoho Mail, Zoho CRM, Zoho Docs, Zoho Cliq, etc, ...</p>",
+            "ulist": [
+                "User have N number Zoho applications (Zoho Mail, Zoho CRM, Zoho Cliq, Zoho Docs)",
+                "It is very difficult to remember which information are stored in which application.",
+                "If user forget required information where it is stored then user has to go each and every apps to search and find until get that required information.",
+                "SO we have planned and provide one common search interface across all zoho apps and user no need to go each and every apps or remember where the data is stored. Simply user search by keywords in that common interface in the current domain itself.",
+                "Internally we will collect user accessable services and do internal operation in all services to get data and show in the UI."
+            ],
+            "technologies": [
+                {
+                    "title": "Html",
+                    "url": "https://en.wikipedia.org/wiki/HTML"
+                },
+                {
+                    "title": "Css",
+                    "url": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets"
+                },
+                {
+                    "title": "JS",
+                    "url": "https://en.wikipedia.org/wiki/JavaScript"
+                },
+                {
+                    "title": "Jquery",
+                    "url": "https://en.wikipedia.org/wiki/JQuery"
+                },
+                {
+                    "title": "Java - API",
+                    "url": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+                }
+            ],
+            "timeline": "2014 - 2019"
+        },
+        {
+            "title": "Search Admin Console",
+            "subTitle": "Zoho Corp, Chennai -- Project  Trainee",
+            "description": "<strong>We have Provided user interface for handling admin related operation for Zoho Search.</strong><br><br><p>By using this admin console, service team can monitor status of their data whether indexed properly or not and perform much more operation related DB to save time.</p>",
+            "olist": [
+                "We will show information about services and data to index in our DB.",
+                "Provide Retry option in UI to support to retry index if any issues occur while indexing data",
+                "Admin can delete any misleading information or junk data from UI.",
+                "Admin can add configuration properties in UI.",
+                "Admin can add and maintain scheduler in UI.",
+                "and we have added many more option in admin console to simplify service team work load."
+            ],
+            "technologies": [
+                {
+                    "title": "Html",
+                    "url": "https://en.wikipedia.org/wiki/HTML"
+                },
+                {
+                    "title": "Css",
+                    "url": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets"
+                },
+                {
+                    "title": "JS",
+                    "url": "https://en.wikipedia.org/wiki/JavaScript"
+                },
+                {
+                    "title": "Jquery",
+                    "url": "https://en.wikipedia.org/wiki/JQuery"
+                }
+            ],
+            "timeline": "2013 - 2014"
         }
     ]
 }
