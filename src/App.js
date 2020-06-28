@@ -12,11 +12,11 @@ import Education from './component/education';
 class App extends Component {
 
   renderRedirect = () => {
-    let search = window.location.search;
-    if(search.indexOf("?p=") !== -1) {
-      let url = window.location.pathname + window.location.search.slice(3);
-      return <Redirect to={url} />
-    }
+    // let search = window.location.search;
+    // if(search.indexOf("?p=") !== -1) {
+    //   let url = window.location.pathname + window.location.search.slice(3);
+    //   return <Redirect to={url} />
+    // }
   }
 
   render() {
@@ -29,12 +29,12 @@ class App extends Component {
 
         <div className="r-p1">
           <Switch>
-            <Route exact path="/portfolio/" component={About} />
-            <Route path="/portfolio/experience" exact component={Experience} />
-            <Route path="/portfolio/education" exact component={Education} />
-            <Route path="/portfolio/projects" component={Projects} />
-            <Route path="/portfolio/contact" component={Contact} />
-            <Route path="/portfolio/*" component={NotFound} />
+            <Route exact path="/" component={About} />
+            <Route path="/experience" component={Experience} />
+            <Route path="/education" component={Education} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/*" component={NotFound} />
           </Switch>
         </div>
       </div>
