@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo  from '../images/muniyan.jpg';
 import contactData from '../data/contact.json';
-import { SocialIcon } from 'react-social-icons';
-import RecentBlog from './recentBlog';
+import { AiOutlineMail, AiFillLinkedin } from "react-icons/ai";
 
 class Sidebar extends Component {
     
@@ -35,18 +34,13 @@ class Sidebar extends Component {
                         Get in touch
                     </div>
                     <div className="sidebar-content">
-                        {contactData.profile.map(function (p) {
-                            return (
-                                p.network === "email" ?
-                                    <a href={p.url} className="sidebar-button">
-                                        <SocialIcon className="sidebar-icon" network={p.network} fgColor="#ff5a01" style={{ height: 30, width: 30 }} />
-                                    </a>
-                                    :
-                                    <a href={p.url} className="sidebar-button" rel="noopener noreferrer" target="_blank">
-                                        <SocialIcon className="sidebar-icon" network={p.network} fgColor="#ff5a01" style={{ height: 30, width: 30 }} />
-                                    </a>
-                            )
-                        })}
+                        <a href={contactData.profile[0].url} className="sidebar-button">
+                            <AiOutlineMail />
+                        </a>
+
+                        <a href={contactData.profile[1].url} className="sidebar-button" rel="noopener noreferrer" target="_blank">
+                            <AiFillLinkedin />
+                        </a>
                     </div>
                 </div>
             </div>

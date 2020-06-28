@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import contactData from '../data/contact.json';
+import { GoLocation } from "react-icons/go";
+import { AiOutlineMail, AiFillLinkedin } from "react-icons/ai";
+
 
 class Contact extends Component {
 
@@ -14,17 +17,30 @@ class Contact extends Component {
                 <p>{contactData.description}</p>
 
                 <div className="contact-section">
-                    {contactData.profile.map(function (p) {
-                        return (
-                            <div className="contact-row">
-                                <div className="contact-label">{p.key}</div>
-                                {p.network === "email" ?
-                                    <a className="contact-value" href={p.url}>{p.value}</a>
-                                    : <a className="contact-value" href={p.url} rel="noopener noreferrer" target="_blank">{p.value}</a>
-                                }
-                            </div>
-                        )
-                    })}
+
+                    <div className="contact-row">
+                        <div className="contact-label">{contactData.profile[0].key}</div>
+                        <a className="contact-value" href={contactData.profile[0].url}>
+                            <AiOutlineMail />
+                            <span className="contact-logo">{contactData.profile[0].value}</span>
+                        </a>
+                    </div>
+
+                    <div className="contact-row">
+                        <div className="contact-label">{contactData.profile[1].key}</div>
+                        <a className="contact-value" href={contactData.profile[1].url} rel="noopener noreferrer" target="_blank">
+                            <AiFillLinkedin />
+                            <span className="contact-logo">{contactData.profile[1].value}</span>
+                        </a>
+                    </div>
+
+                    <div className="contact-row">
+                        <div className="contact-label">{contactData.profile[2].key}</div>
+                        <a className="contact-value" href={contactData.profile[2].url} rel="noopener noreferrer" target="_blank">
+                            <GoLocation />
+                            <span className="contact-logo">{contactData.profile[2].value}</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         );

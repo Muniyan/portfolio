@@ -23,54 +23,83 @@ class Experience extends Component {
                                 return (
                                     <ul className="portfolio-timeline">
                                         <li className="portfolio-work">
-                                            { d.title ?
-                                                <div className="portfolio-timeline-title">{d.title}</div> : ""
-                                            }
-                                            
-                                            { d.subTitle ?
-                                                <div className="portfolio-timeline-sub-title">{d.subTitle}</div> : ""
-                                            }
 
                                             <span className="portfolio-date">{d.timeline}</span>
 
                                             <span className="portfolio-circle"></span>
 
-                                            <div className="portfolio-content" dangerouslySetInnerHTML={createMarkup(d.description)}></div>
+                                            <div className="education-parent">
+                                                <div className="education-table">
+                                                    {d.title ?
+                                                        <div className="education-row">
+                                                            <div className="education-cell">
+                                                                <div className="portfolio-timeline-title">{d.title}</div>
+                                                            </div>
+                                                        </div> : ""
+                                                    }
 
-                                            { d.ulist ?
-                                                <ul className="portfolio-list">
-                                                    {d.ulist.map(function (l, lidx) {
-                                                        return (
-                                                            <li>{l}</li>
-                                                        )
-                                                    })}
-                                                </ul> : ""
-                                            }
+                                                    {d.subTitle ?
+                                                        <div className="education-row">
+                                                            <div className="education-cell">
+                                                                <div className="portfolio-timeline-sub-title">{d.subTitle}</div>
+                                                            </div>
+                                                        </div> : ""
+                                                    }
 
-                                            { d.olist ?
-                                                <ol className="portfolio-list">
-                                                    {d.olist.map(function (l, lidx) {
-                                                        return (
-                                                            <li>{l}</li>
-                                                        )
-                                                    })}
-                                                </ol> : "" 
-                                            }
+                                                    <div className="education-row">
+                                                        <div className="education-cell">
+                                                            <div className="portfolio-content" dangerouslySetInnerHTML={createMarkup(d.description)}></div>
+                                                        </div>
+                                                    </div>
 
-                                            { d.technologies ?
-                                                <div className="portfolio-technologies-header">
-                                                    <div className="portfolio-technologies-title">technologies</div>
-                                                    <ul className="portfolio-technologies-content">
-                                                        {d.technologies.map(function (l, lidx) {
-                                                            return (
-                                                                <li className="portfolio-technologies-items">
-                                                                    <a href={l.url} rel="noopener noreferrer" target="_blank">{l.title}</a>
-                                                                </li>
-                                                            )
-                                                        })}
-                                                    </ul>
-                                                </div> : "" 
-                                            }
+                                                    {d.ulist ?
+                                                        <div className="education-row">
+                                                            <div className="education-cell">
+                                                                <ul className="portfolio-list">
+                                                                    {d.ulist.map(function (l, lidx) {
+                                                                        return (
+                                                                            <li>{l}</li>
+                                                                        )
+                                                                    })}
+                                                                </ul>
+                                                            </div>
+                                                        </div> : ""
+                                                    }
+
+                                                    {d.olist ?
+                                                        <div className="education-row">
+                                                            <div className="education-cell">
+                                                                <ol className="portfolio-list">
+                                                                    {d.olist.map(function (l, lidx) {
+                                                                        return (
+                                                                            <li>{l}</li>
+                                                                        )
+                                                                    })}
+                                                                </ol>
+                                                            </div>
+                                                        </div> : ""
+                                                    }
+
+                                                    {d.technologies ?
+                                                        <div className="education-row">
+                                                            <div className="education-cell">
+                                                                <div className="portfolio-technologies-header">
+                                                                    <div className="portfolio-technologies-title">technologies</div>
+                                                                    <ul className="portfolio-technologies-content">
+                                                                        {d.technologies.map(function (l, lidx) {
+                                                                            return (
+                                                                                <li className="portfolio-technologies-items">
+                                                                                    <a href={l.url} rel="noopener noreferrer" target="_blank">{l.title}</a>
+                                                                                </li>
+                                                                            )
+                                                                        })}
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div> : ""
+                                                    }
+                                                </div>
+                                            </div>
                                         </li>
                                     </ul>
                                 )
@@ -82,17 +111,5 @@ class Experience extends Component {
         );
     }
 }
-
-
-        // {
-        //     d.technologies.map(function (t, tidx) {
-        //         return (
-        //             <div>
-        //                 <div>{t.title}</div>
-        //                 <div>{t.url}</div>
-        //             </div>
-        //         )
-        //     })
-        // }
 
 export default Experience;

@@ -1,18 +1,24 @@
 {
     "title": "Contact Me",
-    "description": "I am available for hire and open to any ideas of cooperation.",
+    "description": "Feel free to get in touch with me.",
     "profile": [
         {
             "key": "Email:",
-            "network": "email",
+            "logo": "AiOutlineMail",
             "value": "muniviji8@gmail.com",
             "url": "mailto:muniviji8@gmail.com"
         },
         {
             "key": "LinkedIn:",
-            "network": "linkedin",
+            "logo": "AiFillLinkedin",
             "value": "muniyan-p-760bb898",
             "url": "https://www.linkedin.com/in/muniyan-p-760bb898"
+        },
+        {
+            "key": "Location:",
+            "logo": "AiOutlineMail",
+            "value": "Chennai",
+            "url": "https://en.wikipedia.org/wiki/Chennai"
         }
     ]
 }

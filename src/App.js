@@ -11,18 +11,9 @@ import Education from './component/education';
 
 class App extends Component {
 
-  renderRedirect = () => {
-    // let search = window.location.search;
-    // if(search.indexOf("?p=") !== -1) {
-    //   let url = window.location.pathname + window.location.search.slice(3);
-    //   return <Redirect to={url} />
-    // }
-  }
-
   render() {
     return (
       <div className="container">
-        { this.renderRedirect() }
         <div className="l-p1">
           <Sidebar />
         </div>
