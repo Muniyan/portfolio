@@ -10,7 +10,7 @@
                 "To display consumer panel data in the interface by using Angular framework.",
                 "To fetch the data from db we are using spring boot.",
                 "Recently started to work on API changes to support Backend also.",
-                "Work with excel to download export the information and access the information in the offline."
+                "Work with Excel to download the information and access the information offline."
             ],
             "technologies": [
                 {
@@ -62,7 +62,7 @@
         {
             "title": "Search Admin Console",
             "subTitle": "Zoho Corp, Chennai -- Project  Trainee",
-            "description": "<strong>We have Provided user interface for handling admin related operation for Zoho Search.</strong><br><br><p>By using this admin console, service team can monitor status of their data whether indexed properly or not and perform much more operation related DB to save time.</p>",
+            "description": "<strong>We have Provided user interface for handling admin related operations for Zoho Search.</strong><br><br><p>By using this admin console, service team can monitor status of their data whether indexed properly or not and perform much more operation related DB to save time.</p>",
             "olist": [
                 "We will show information about services and data to index in our DB.",
                 "Provide Retry option in UI to support to retry index if any issues occur while indexing data",

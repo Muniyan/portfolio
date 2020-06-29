@@ -4,13 +4,13 @@
     "items": [
         {
             "title": "My Portfolio App",
-            "description": "Recently I have created My portfolio app and hosted in github pages to easily access 24*7.",
+            "description": "I have created My portfolio app and hosted in github pages to easily access 24*7.",
             "ulist": [
-                "Portfolio contains N number of section to explain about myself, My experience, My education and Projects details, etc, ...",
-                "About Me section contains about my personal details and skills informations.",
-                "Experience sectin contains information about my work experience with details.",
+                "Portfolio contains N number of sections to explain about myself, My experience, My education and Projects details, etc, ...",
+                "The About Me section contains my personal details and skills information",
+                "The Experience section contains information about my work experience with details.",
                 "Education section contains information about my schools and college details.",
-                "Projetcs section contains information about my projects details which i have done while learing about react app.",
+                "The Projects section contains information about my projects details which i have done while learning about react app.",
                 "Contact section contains information about my contact details of email id and linedIn."
             ],
             "technologies": [
@@ -27,14 +27,13 @@
         },
         {
             "title": "Task Manager App",
-            "description": "Advanced Todo app and it can store store and maintain list complex todo list items.",
+            "description": "Advanced Todo app and it can store and maintain list complex todo list items.",
             "ulist": [
-                "User can create one parent board for store all the task information.",
-                "User can add N number of list items to store big goal items and all list items will store under parent board",
-                "User can create list of sub task and add in under list items. user can do sub task one by one and complete one by one and once all sub task completed then finally list will completed and move to next list items in board.",
-                "User can add comments in each sub task to keep track of everyday work.",
-                "User can delete unwanted sub task and list which is created by user.",
-                "I have used local storage for store board, list and sub task and comments information."
+                "Users can create one parent board to store all the task information.",
+                "User can add N number of list items to store big goal items and all list items will store under parent board.",
+                "Users can create a list of sub tasks and add in under list items. The user can do subtasks one by one and complete one by one and once all sub tasks are completed then finally the list will complete and move to next list items on board.",
+                "Users can add comments in each sub task to keep track of everyday work.",
+                "Users can delete unwanted sub tasks and lists which are created by the user."
             ],
             "technologies": [
                 {
@@ -50,12 +49,12 @@
         },
         {
             "title": "Todo App",
-            "description": "User can add and manage list of todo items and it will help to keep track items status and complete on time.",
+            "description": "Users can add and manage lists of todo items and it will help to keep track items status and complete on time.",
             "ulist": [
-                "User can add items to track and manage in future.",
-                "User can edit existing items name to correct their mistakes.",
-                "User can delete existing items which is not required.",
-                "User can mark items is completed and user can concentrate next items in the list."
+                "Users can add items to track and manage in future.",
+                "Users can edit existing items' names to correct their mistakes.",
+                "Users can delete existing items which are not required.",
+                "Users can mark items are completed and users can concentrate next items in the list."
             ],
             "technologies": [
                 {
