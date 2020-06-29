@@ -3,7 +3,7 @@
     "description": "Here we can see some of simple React projects which i have done while learning React.",
     "items": [
         {
-            "title": "Portfolio App",
+            "title": "My Portfolio App",
             "description": "Recently I have created My portfolio app and hosted in github pages to easily access 24*7.",
             "ulist": [
                 "Portfolio contains N number of section to explain about myself, My experience, My education and Projects details, etc, ...",
