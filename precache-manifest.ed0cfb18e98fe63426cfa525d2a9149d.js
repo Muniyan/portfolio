@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4810ef9a2aaf8eadcd113f24ddcf5a20",
+    "revision": "3e7e154c03223f4780bac27e9ba30c60",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "1867c2bf4a1a7a99dd16",
+    "revision": "b8e1840811b7b5ed159f",
     "url": "/portfolio/static/css/main.4c171b7e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.2a820fe2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1867c2bf4a1a7a99dd16",
-    "url": "/portfolio/static/js/main.578093f1.chunk.js"
+    "revision": "b8e1840811b7b5ed159f",
+    "url": "/portfolio/static/js/main.4d3f2ffc.chunk.js"
   },
   {
     "revision": "4bd91fadd2fd7eb0d6b8",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/muniyan.272113c6.jpg"
   },
   {
-    "revision": "6ca318aeefa587877f1bcb7e854407c9",
-    "url": "/portfolio/static/media/muniyan.6ca318ae.pdf"
+    "revision": "d493c9cf331db710425bd8400ef905ab",
+    "url": "/portfolio/static/media/muniyan.d493c9cf.pdf"
   }
 ]);
