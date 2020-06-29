@@ -25,7 +25,7 @@
         "description": "I'm an independent teamworker strong in research and coding. My areas of expertise are bioinformatics, genetics, and computer science. Below are highlights of my technical skills:",
         "skills": [
             {
-                "key": "/Html/Css/Js/Jquery",
+                "key": "Html/Css/Js",
                 "value": "70%"
             },
             {
@@ -34,10 +34,6 @@
             },
             {
                 "key": "React",
-                "value": "50%"
-            },
-            {
-                "key": "Spring Boot",
                 "value": "50%"
             },
             {

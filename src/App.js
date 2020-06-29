@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import About from './component/about';
 import Contact from './component/contact';
 import Sidebar from './component/sidebar';
